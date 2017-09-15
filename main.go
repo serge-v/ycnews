@@ -156,7 +156,7 @@ func isMissing(installed bool, name string) string {
 	if installed {
 		return ""
 	}
-	return "\x1b[31m(" + name + "is not installed)\x1b[0m"
+	return "\x1b[31m(" + name + " is not installed)\x1b[0m"
 }
 
 func printItem(it *item) {
