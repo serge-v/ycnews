@@ -59,7 +59,7 @@ func init() {
 	if err := cmd.Run(); err == nil {
 		fzfInstalled = true
 	}
-	cmd = exec.Command("which", "elinkss")
+	cmd = exec.Command("which", "elinks")
 	if err := cmd.Run(); err == nil {
 		elinksInstalled = true
 	}
