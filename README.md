@@ -1,7 +1,10 @@
 # ycnews
 Console reader for Hacker News (news.ycombinator.com)  
 
-ycnews tool shows news.ycombinator.com feed, views comments,opens article's urls in firefox or elinks.
+Features:
+- list news.ycombinator.com top items
+- views comments
+- opens article's urls in firefox or elinks
 
 ## install/update
     export GOBIN=/usr/local/bin # set output directory
